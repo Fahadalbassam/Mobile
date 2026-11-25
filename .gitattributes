@@ -1,0 +1,10 @@
+# Normalise line endings in the repository
+* text=auto
+
+# Shell script must keep Unix line endings; Windows batch file keeps CRLF
+gradlew text eol=lf
+*.bat text eol=crlf
+
+# Binary files
+*.jar binary
+*.png binary

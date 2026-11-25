@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Student Planner</string>
+    <string name="title_tasks">My Tasks</string>
+    <string name="title_task">Task</string>
+    <string name="title_schedule">Weekly Schedule</string>
+    <string name="title_class">Class</string>
+
+    <string name="today">Today</string>
+    <string name="summary_classes">Classes today</string>
+    <string name="summary_pending">Pending tasks</string>
+    <string name="summary_overdue">Overdue</string>
+    <string name="next_class">Next Class</string>
+    <string name="no_more_classes">No more classes today</string>
+    <string name="no_more_classes_details">Your classes for today are finished.</string>
+    <string name="todays_classes">Today\'s Classes</string>
+    <string name="most_urgent">Most Urgent Deadlines</string>
+    <string name="no_classes_today">No classes today.</string>
+    <string name="no_pending_tasks">No pending tasks. Well done!</string>
+    <string name="class_finished">Finished</string>
+    <string name="open_tasks">My Tasks</string>
+    <string name="open_schedule">Weekly Schedule</string>
+
+    <string name="add_task">Add Task</string>
+    <string name="add_class">Add Class</string>
+    <string name="show_completed">Show completed tasks</string>
+    <string name="no_tasks">No tasks yet. Tap \"Add Task\" to create one.</string>
+    <string name="no_classes">No classes yet. Tap \"Add Class\" to add one.</string>
+
+    <string name="hint_title">Task title</string>
+    <string name="hint_description">Description (optional)</string>
+    <string name="label_due">Deadline</string>
+    <string name="label_priority">Priority</string>
+    <string name="label_reminder">Reminder</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+
+    <string name="hint_course">Course name (e.g. CS 526)</string>
+    <string name="hint_location">Location (e.g. Building 11, Room 204)</string>
+    <string name="hint_instructor">Instructor (optional)</string>
+    <string name="label_day">Day</string>
+    <string name="label_start">Start time</string>
+    <string name="label_end">End time</string>
+
+    <string name="error_title">Please enter a title</string>
+    <string name="error_course">Please enter a course name</string>
+    <string name="error_time">End time must be after start time</string>
+    <string name="confirm_delete">Delete this item?</string>
+    <string name="cancel">Cancel</string>
+    <string name="saved">Saved</string>
+    <string name="deleted">Deleted</string>
+
+    <string name="action_done">Done</string>
+    <string name="action_snooze">Snooze 10 min</string>
+    <string name="marked_done">Task marked as done</string>
+    <string name="snoozed">Reminder snoozed for 10 minutes</string>
+
+    <string name="widget_title">Student Planner · Today</string>
+    <string name="widget_most_urgent">Most urgent</string>
+    <string name="widget_counts">%1$d pending · %2$d overdue</string>
+    <string name="widget_description">Your next class and most urgent task</string>
+
+    <string name="channel_name">Reminders</string>
+    <string name="channel_desc">Reminders for classes and task deadlines</string>
+
+    <string-array name="priorities">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="reminder_options">
+        <item>No reminder</item>
+        <item>At the time</item>
+        <item>10 minutes before</item>
+        <item>30 minutes before</item>
+        <item>1 hour before</item>
+        <item>1 day before</item>
+    </string-array>
+
+    <!-- Minutes for each entry above; -1 means no reminder -->
+    <integer-array name="reminder_minutes">
+        <item>-1</item>
+        <item>0</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>1440</item>
+    </integer-array>
+
+    <!-- Index 0..6 matches Calendar.SUNDAY..Calendar.SATURDAY minus 1 -->
+    <string-array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+</resources>
